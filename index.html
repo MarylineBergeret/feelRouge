@@ -4,9 +4,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    
+     <!--************barre de nav bootstrap*********-->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inscris toi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">LA SOURCE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- *****************accordeon*************** -->
+    <div class="col-lg-8 col-md-12 col-12" id="container">
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <!-- *******accordion 1******** -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <strong><fONT face='New Rocker', cursive , sans-serif >POINT DE DEPART</fONT></strong>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>HARD ROCK / HEAVY METAL</strong> 
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ********accordion 2*********** -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong><fONT face='New Rocker', cursive , sans-serif >FAMILLE METAL</fONT></strong>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>FAMILLES METAL</strong>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam deserunt numquam a, error perspiciatis earum similique quas adipisci quaerat iure facilis! Delectus eos quam modi pariatur inventore neque hic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ********accordion 3*********** -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong><fONT face='New Rocker', cursive , sans-serif >METAL PROGRESSIF</fONT></strong>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>MES REFS</strong>
+                                <p>Rythmes complexes, textes</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>   
+    <!-- ********card 1*********** --> 
+    <div id="vote">
+        <div class="card">
+            <img class="card-img-top" src="assets/concert.jpg" alt="Card image">
+            <h4 class="card-title">Meilleur concert en salle</h4><br>
+            <div class="card-body">
+                
+                <div class="top5">
+                    <p class="card-text">Mon classement</p><br>
+                    <img src="assets/one.png" alt="un">
+                    <p>Symphonie X</p><br>
+                    <img src="assets/two.png" alt="deux">
+                    <p>Extrême</p><br>
+                    <img src="assets/threeMetal.png" alt="trois">
+                    <p>Robert Plant</p><br>
+                    <img src="assets/four.png" alt="quatre">
+                    <p>Tenacious D</p><br>
+                    <img src="assets/five.png" alt="cinq">
+                    <p>Whitesnake</p><br>
+                </div>
+                <div class="top5">
+                    <p class="card-text"><strong>Votre classement</strong></p><br>
+                    <img src="assets/one.png" alt="un">
+                    <p><strong>Megadeth</strong></p><br>
+                    <img src="assets/two.png" alt="deux">
+                    <p><strong>Extrême</strong></p><br>
+                    <img src="assets/threeMetal.png" alt="trois">
+                    <p><strong>Robert Plant</strong></p><br>
+                    <img src="assets/four.png" alt="quatre">
+                    <p><strong>Tenacious D</strong></p><br>
+                    <img src="assets/five.png" alt="cinq">
+                    <p><strong>Whitesnake</strong></p><br>
+                    </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/hellfestElia.jpg" alt="Card image">
+            <div class="card-body3">
+                <h4 class="card-title">Meilleur concert en festival</h4>
+                <p class="card-text">Ondes </p>
+                <img src="assets/one.png" alt="un">
+                <p>Heaven and Hell</p><br>
+                <img src="assets/two.png" alt="deux">
+                <p>Aérosmith</p><br>
+                <img src="assets/threeMetal.png" alt="trois">
+                <p>Kiss</p><br>
+                <img src="assets/four.png" alt="quatre">
+                <p>Down</p><br>
+                <img src="assets/five.png" alt="cinq">
+                <p>Dreamtheater</p><br>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/party-people-1644798_640.jpg" alt="Card image">
+            <div class="card-body4">
+                <h4 class="card-title">Le mythique que tu as vu</h4>
+                <label for="story">Pour ma part:</label>
+                <p class="card-text">Heaven and Hell</p>
+                <a href="https://dai.ly/xa06hb" class="btn btn-primary" target="_blank">Voir</a>
+            <div class="card-body4">
+                <h4 class="card-title">Le mythique que tu as raté</h4>
+                <p class="card-text">Transatlantic - Whirlwind</p>
+                <a href="https://youtu.be/zIN0I8Cvotg" class="btn btn-primary" target="_blank">Voir</a>
+            </div>
+                
+            <textarea id="story" name="story" rows="18" cols="33">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, aliquid porro labore illum minus voluptatem fugiat reprehenderit animi molestiae facilis eos esse corporis a deserunt ut enim asperiores praesentium, nobis quibusdam, quam incidunt voluptatum! Aliquid, nihil a qui quis sequi nobis provident. Voluptatum quidem placeat perferendis sequi officiis et ipsa corrupti officia asperiores. Nisi maxime adipisci, reiciendis natus voluptas velit?...
+            </textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/audio-3540254_1280.jpg" alt="Card image">
+           
+        </div>    
+    </div>
+    <div id="validation"><a href="#" class="btn btn-primary">Valider</a></div>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>   
 </body>
 </html>

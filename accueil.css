@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+h1 {
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: blueviolet;
+    font-family : 'New Rocker', cursive , sans-serif;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.737);
+    /* font-family : 'Dancing Script', cursive ; */
+}
+
+h1:hover{
+    
+}
+.carousel-item img {
+    margin: 20px auto;
+}
+.carousel-control-prev {
+    margin-left: 160px;  
+}.carousel-control-next {
+    margin-right: 160px;
+}
